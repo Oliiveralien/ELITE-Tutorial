@@ -1,9 +1,6 @@
 # ELITE Tutorial for Customized Text-to-Image Generation
 
 
-<a href="https://arxiv.org/pdf/2302.13848.pdf"><img src="https://img.shields.io/badge/arXiv-2302.13848-b31b1b.svg" height=22.5></a>
-<a href="https://huggingface.co/spaces/ELITE-library/ELITE"><img src="https://img.shields.io/static/v1?label=HuggingFace&message=gradio demo&color=darkgreen" height=22.5></a>
-
 ![method](assets/results.png)
 
 
