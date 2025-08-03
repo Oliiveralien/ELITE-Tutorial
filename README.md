@@ -1,4 +1,4 @@
-# ELITE: Encoding Visual Concepts into Textual Embeddings for Customized Text-to-Image Generation
+# ELITE Tutorial for Customized Text-to-Image Generation
 
 
 <a href="https://arxiv.org/pdf/2302.13848.pdf"><img src="https://img.shields.io/badge/arXiv-2302.13848-b31b1b.svg" height=22.5></a>
