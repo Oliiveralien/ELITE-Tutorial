@@ -44,7 +44,8 @@ def pww_load_tools(
 ]:
 
     # 'CompVis/stable-diffusion-v1-4'
-    local_path_only = diffusion_model_path is not None
+    # local_path_only = diffusion_model_path is not None
+    local_path_only = False
     vae = AutoencoderKL.from_pretrained(
         diffusion_model_path,
         subfolder="vae",
