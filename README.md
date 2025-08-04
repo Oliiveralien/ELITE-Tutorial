@@ -23,7 +23,8 @@ conda activate elite
 pip install -r requirements.txt
 ```
 
-If you are using 50 series GPUs (like RTX5060), Stable Pytorch is currently incompatible with 50 series GPUs. There is a way to fix this by using nightly Pytorch. See this issue [here](https://github.com/comfyanonymous/ComfyUI/issues/7127).
+If you are using 50 series GPUs (like RTX5060), you may encounter this error: "NVIDIA GeForce RTX 50XX with CUDA capability sm_120 is not compatible with the current PyTorch installation."
+That's because Stable Pytorch is currently incompatible with 50 series GPUs. There is a way to fix this by using nightly Pytorch. See this issue [here](https://github.com/comfyanonymous/ComfyUI/issues/7127).
 
 If this error happens: "Could not load library libcudnn_cnn_infer.so.8.", you need to install cudnn with version 8. See this issue [here](https://github.com/vladmandic/sdnext/discussions/540). CUDA 12.8 + cuDNN 8.9.7 works on RTX 3070.
 
