@@ -35,6 +35,12 @@ Download checkpoints in [Google Drive](https://drive.google.com/drive/folders/1y
 
 How to download files from Google Drive in Linux? -> check out [gdown](https://github.com/wkentaro/gdown).
 
+```shell
+pip install gdown
+gdown https://drive.google.com/uc?id=1EXbqSD3cB3JryAvo59q75RhV17fOrIfp -O ./checkpoints/
+gdown https://drive.google.com/uc?id=1QISNAzcSBvNDedClDX9-vi_36YtbNmkQ -O ./checkpoints/
+```
+
 ### Customized Generation
 
 There are some testing pairs in [test_datasets](./test_datasets), which contain both images and object masks. 
