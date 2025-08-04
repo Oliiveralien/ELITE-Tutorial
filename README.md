@@ -16,7 +16,7 @@ Given an image indicates the target concept (usually an object), we propose a le
 ### Environment Setup
 
 ```shell
-git clone https://github.com/csyxwei/ELITE.git
+git clone https://github.com/Oliiveralien/ELITE-Tutorial
 cd ELITE-Tutorial
 conda create -n elite python=3.9
 conda activate elite
