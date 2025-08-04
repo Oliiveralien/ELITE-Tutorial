@@ -30,6 +30,8 @@ Torch 2.9.0.dev20250803 + CUDA 12.8 works on RTX 5060 Ti.
 If this error happens: "Could not load library libcudnn_cnn_infer.so.8.", you need to install cudnn with version 8. See this issue [here](https://github.com/vladmandic/sdnext/discussions/540). 
 CUDA 12.8 + cuDNN 8.9.7 works on RTX 3070.
 
+If you want to rent a remote GPU, check out [Vast](https://vast.ai/) or other platforms.
+
 
 ### Pretrained Models
 
