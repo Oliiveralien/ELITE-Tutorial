@@ -2,7 +2,7 @@ export MODEL_NAME="CompVis/stable-diffusion-v1-4"
 export DATA_DIR='./test_datasets/'
 export Prompt="a photo of a S"
 
-CUDA_VISIBLE_DEVICES=0 python inference_global.py \
+CUDA_VISIBLE_DEVICES=0 python inference_local.py \
   --pretrained_model_name_or_path=$MODEL_NAME \
   --test_data_dir=$DATA_DIR \
   --template=$Prompt \
