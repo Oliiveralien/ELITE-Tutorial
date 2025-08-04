@@ -17,7 +17,7 @@ Given an image indicates the target concept (usually an object), we propose a le
 
 ```shell
 git clone https://github.com/csyxwei/ELITE.git
-cd ELITE
+cd ELITE-Tutorial
 conda create -n elite python=3.9
 conda activate elite
 pip install -r requirements.txt
