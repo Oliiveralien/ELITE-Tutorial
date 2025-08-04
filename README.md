@@ -27,6 +27,7 @@ pip install -r requirements.txt
 
 Download checkpoints in [Google Drive](https://drive.google.com/drive/folders/1y7KOo8T7FkknWLbFrbAvgYbha2xipXYs?usp=drive_link). Then save to the directory `./checkpoints`.
 
+How to download files from Google Drive in Linux? -> check out [gdown](https://github.com/wkentaro/gdown).
 
 ### Customized Generation
 
