@@ -36,7 +36,7 @@ For testing, you can run the shell script.
 ```
 bash inference_local.sh
 ```
-Change the image folder and prompt for your own customization.
+Change the image folder (DATA_DIR) and prompt (template) for your own customization.
 
 If you want to test your customized dataset, you should align the image to ensure the object is at the center of image, and also provide the corresponding object mask. 
 
