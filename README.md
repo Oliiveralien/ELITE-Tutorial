@@ -1,5 +1,15 @@
 # ELITE Tutorial for Customized Text-to-Image Generation
 
+## 🚀 Try It Now on Colab! 🧪🎨
+
+We **highly recommend** using our **online Colab notebook** to quickly try out the ELITE framework — no setup required!  
+Click below to get started instantly with a free GPU (T4 supported):  
+
+👉 [**Launch ELITE on Colab**](https://colab.research.google.com/drive/1EpicdzK0iLtxCYv0A3nfXk4tKQ-k_hW_?usp=sharing) 👈  
+
+> ✅ **No installation needed**  
+> 💡 **Free T4 GPU access**  
+> 🔧 **Fully runnable demo with example data**
 
 ![method](assets/results.png)
 
@@ -9,7 +19,6 @@
 ![method](assets/method.png)
 
 Given an image indicates the target concept (usually an object), we propose a learning-based encoder ELITE to encode the visual concept into the textual embeddings, which can be further flexibly composed into new scenes.  It consists of two modules: (a) a global mapping network is first trained to encode a concept image into multiple textual word embeddings, where one primary word (w0) for well-editable concept and other auxiliary words (w1···N) to exclude irrelevant disturbances. (b) A local mapping network is further trained, which projects the foreground object into textual feature space to provide local details.
-
 
 ## Getting Started
 
